@@ -21,7 +21,7 @@ class MailSender {
       text: 'Terlampir hasil dari ekspor playlist',
       attachments: [
         {
-          filename: 'playlists.json',
+          filename: 'playlist.json',
           content,
         },
       ],
